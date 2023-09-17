@@ -85,7 +85,11 @@ function updateListPendaftar() {
         cell2.textContent = p.umur;
         cell3.textContent = p.uangSaku;
     });
+
+    // Menampilkan tabel ketika ada pendaftar
+    table.style.display = 'block';
 }
+
 document.addEventListener("DOMContentLoaded", function () {
   // Menambahkan event listener ke tab List Pendaftar
   document
